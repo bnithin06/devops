@@ -3,6 +3,8 @@ public class Sum {
         for (int i = 0; i < 26; i++) {
             char c = (char) (65 + i);
             System.out.print(c + " ");
+            char s=(char)(97+i);
+            System.out.print(s+ " ");
         }
     }
 
