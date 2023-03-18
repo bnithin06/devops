@@ -1,9 +1,11 @@
 public class Sum {
     public static void main(String args[]) {
-        int a = 10;
-        int b = 20;
-        int c = a + b;
-        System.out.println(c);
+        for (int i = 0; i < 26; i++) {
+            char c = (char) (65 + i);
+            System.out.print(c + " ");
+            char s=(char)(97+i);
+            System.out.print(s+ " ");
+        }
     }
 
 }
